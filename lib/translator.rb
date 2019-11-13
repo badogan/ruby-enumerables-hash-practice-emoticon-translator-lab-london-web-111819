@@ -14,7 +14,7 @@ def load_library(path)
     dictionary[:get_emoticon][emoticon_array[0]] = emoticon_array[1]
   end
   dictionary
-  binding.pry
+  #binding.pry
 end
 
 def get_english_meaning(path,japanese_emoticon)
